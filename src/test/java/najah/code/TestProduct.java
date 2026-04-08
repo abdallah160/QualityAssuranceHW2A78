@@ -74,7 +74,7 @@ class TestProduct {
         assertTimeout(Duration.ofMillis(100), product::getFinalPrice);
     }
 
-    @Disabled("This one fails on purpose. To fix it, change expected value to 80.0.")
+    @Disabled("This one fails. To fix it, change expected value to 80.0.")
     @Test
     @DisplayName("disabled example of a failing product test")
     void testFailingExample() {
